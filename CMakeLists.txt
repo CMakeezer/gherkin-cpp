@@ -23,11 +23,11 @@ install(
         ARCHIVE DESTINATION lib/
         LIBRARY DESTINATION lib/
         RUNTIME DESTINATION lib/
-        INCLUDES DESTINATION include)
+        INCLUDES DESTINATION include/gherkin-cpp)
 
 install(
         DIRECTORY "${PROJECT_SOURCE_DIR}/include/"
-        DESTINATION include
+        DESTINATION include/gherkin-cpp
         FILES_MATCHING PATTERN "*.*hpp")
 
 install(
