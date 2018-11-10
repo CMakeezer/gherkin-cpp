@@ -22,7 +22,7 @@ install(
         EXPORT gherkin-cpp-cmake
         ARCHIVE DESTINATION lib/
         LIBRARY DESTINATION lib/
-        RUNTIME DESTINATION lib/
+        RUNTIME DESTINATION bin/
         INCLUDES DESTINATION include/gherkin-cpp)
 
 install(
